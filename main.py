@@ -9,6 +9,7 @@ import sys
 
 
 def main():
-    pass
+    print('Let’s get hacking!')
 
-sys.exit(main())
+if __name__ == '__main__':
+    sys.exit(main())
