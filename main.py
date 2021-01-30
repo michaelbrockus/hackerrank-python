@@ -8,15 +8,18 @@
 import sys
 
 
+def is_leap(year):
+    leap = False
+
+    if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+        leap = True
+
+    return leap
+
+
 def main():
-    n = int(input())
-    s = str()
-
-    for it in range(n):
-        s += str(it + 1)
-
-    print(s)
-
+   year = int(input())
+   print(is_leap(year))
 
 if __name__ == '__main__':
     sys.exit(main())
