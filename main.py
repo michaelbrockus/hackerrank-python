@@ -9,7 +9,13 @@ import sys
 
 
 def main():
-    print('Let’s get hacking!')
+    a = int(input())
+    b = int(input())
+
+    print(a + b)
+    print(a - b)
+    print(a * b)
+
 
 if __name__ == '__main__':
     sys.exit(main())
