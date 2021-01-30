@@ -9,7 +9,11 @@ import sys
 
 
 def main():
-    print('Let’s get hacking!')
+    n = int(input())
+
+    for it in range(n):
+        print(it * it)
+
 
 if __name__ == '__main__':
     sys.exit(main())
